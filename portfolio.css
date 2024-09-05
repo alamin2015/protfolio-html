@@ -7,10 +7,25 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 200px;
 }
 
 .one {
     color: red;
+}
+
+.header {
+    background-color: wheat;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile {
+    width: 500px;
 }
 
 .nav-title {
