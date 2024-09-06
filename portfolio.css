@@ -16,22 +16,30 @@ nav {
 
 .header {
     background-color: wheat;
+    background-image: url('../portfolio-html/BAG.JPG');
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 .banner {
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
 }
 
 .banner .profile {
-    width: 500px;
+    max-width: 400px;
 }
 
 .nav-title {
     color: rgb(17, 17, 209) (0, 0, 0);
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 800px;
 }
 
 nav ul {
@@ -56,5 +64,43 @@ nav a {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+
+}
+
+.banner-gretting {
+    font-size: 45px;
+    color: black;
+    margin-bottom: 0%;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 800;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: wheat;
+    margin: 130px 0px;
+}
+
+.section-title {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.section-descripation {
+    color: aqua;
+    text-align: center;
+    font-size: 10px;
 
 }
