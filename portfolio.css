@@ -81,11 +81,21 @@ nav a {
     margin-bottom: 20px;
 }
 
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
 .about {
     padding: 130px;
     border-radius: 10px;
-    background: wheat;
+    /* background: wheat; */
     margin: 130px 0px;
+    text-align: center;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
 }
 
 .section-title {
@@ -93,7 +103,7 @@ nav a {
     text-align: center;
     font-size: 35px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800px;
     line-height: normal;
 
 }
@@ -103,4 +113,14 @@ nav a {
     text-align: center;
     font-size: 10px;
 
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
 }
