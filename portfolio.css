@@ -60,7 +60,7 @@ nav a {
     border-radius: 5px;
     background-color: red;
     border: 0;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
@@ -108,8 +108,12 @@ main {
 
 }
 
+.about {
+    background: wheat;
+}
+
 .section-descripation {
-    color: aqua;
+    color: rgb(237, 11, 135);
     text-align: center;
     font-size: 10px;
 
@@ -123,4 +127,36 @@ main {
 
 .about-info {
     text-align: center;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 50px;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.resume-colum-title {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.skill {
+    padding: 20px;
+    gap: 24px;
+    border-radius: 5px;
+    background: wheat;
+    box-shadow: 0px 6px 50px 0px black;
+}
+
+.skill-description {
+    color: rgb(237, 11, 135);
 }
