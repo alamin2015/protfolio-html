@@ -160,3 +160,7 @@ main section {
 .skill-description {
     color: rgb(237, 11, 135);
 }
+
+.resume-container {
+    display: flex;
+}
